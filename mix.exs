@@ -46,7 +46,7 @@ defmodule ExMessageDB.MixProject do
   end
 
   defp docs do
-    [main: "readme", extras: ["README.md"]]
+    [main: "readme", extras: ["README.md"], formatter: "html"]
   end
 
   defp elixirc_paths(:test), do: ["lib", "test/support"]
